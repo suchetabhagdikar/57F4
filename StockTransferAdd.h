@@ -1,3 +1,4 @@
+//Header File Declarations
 #pragma once
 #include"ClientDetails.h"
 #include"countRows.h"
@@ -409,7 +410,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->RECEIVED9 = (gcnew System::Windows::Forms::CheckBox());
 			this->RECEIVED10 = (gcnew System::Windows::Forms::CheckBox());
 			this->tableLayoutPanel3->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->errorProvider1))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->errorProvider1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// tableLayoutPanel3
@@ -419,20 +420,20 @@ private: System::ComponentModel::IContainer^  components;
 			this->tableLayoutPanel3->BackgroundImageLayout = System::Windows::Forms::ImageLayout::None;
 			this->tableLayoutPanel3->CellBorderStyle = System::Windows::Forms::TableLayoutPanelCellBorderStyle::OutsetPartial;
 			this->tableLayoutPanel3->ColumnCount = 7;
-			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent, 
+			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
 				18.42105F)));
-			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent, 
+			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Percent,
 				81.57895F)));
-			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Absolute, 
+			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Absolute,
 				66)));
-			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Absolute, 
+			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Absolute,
 				66)));
-			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Absolute, 
+			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Absolute,
 				123)));
-			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Absolute, 
+			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Absolute,
 				96)));
-			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Absolute, 
-				476)));
+			this->tableLayoutPanel3->ColumnStyles->Add((gcnew System::Windows::Forms::ColumnStyle(System::Windows::Forms::SizeType::Absolute,
+				480)));
 			this->tableLayoutPanel3->Controls->Add(this->textBox78, 6, 11);
 			this->tableLayoutPanel3->Controls->Add(this->textBox77, 5, 11);
 			this->tableLayoutPanel3->Controls->Add(this->textBox76, 4, 11);
@@ -539,7 +540,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox78->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox78->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox78->Location = System::Drawing::Point(541, 274);
+			this->textBox78->Location = System::Drawing::Point(531, 274);
 			this->textBox78->Multiline = true;
 			this->textBox78->Name = L"textBox78";
 			this->textBox78->Size = System::Drawing::Size(322, 14);
@@ -549,7 +550,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox77->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox77->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox77->Location = System::Drawing::Point(442, 274);
+			this->textBox77->Location = System::Drawing::Point(432, 274);
 			this->textBox77->Multiline = true;
 			this->textBox77->Name = L"textBox77";
 			this->textBox77->Size = System::Drawing::Size(90, 14);
@@ -559,7 +560,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox76->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox76->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox76->Location = System::Drawing::Point(316, 274);
+			this->textBox76->Location = System::Drawing::Point(306, 274);
 			this->textBox76->Multiline = true;
 			this->textBox76->Name = L"textBox76";
 			this->textBox76->Size = System::Drawing::Size(117, 14);
@@ -579,7 +580,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox23->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox23->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox23->Location = System::Drawing::Point(316, 42);
+			this->textBox23->Location = System::Drawing::Point(306, 42);
 			this->textBox23->Multiline = true;
 			this->textBox23->Name = L"textBox23";
 			this->textBox23->Size = System::Drawing::Size(117, 14);
@@ -589,7 +590,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox6->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox6->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox6->Location = System::Drawing::Point(39, 136);
+			this->textBox6->Location = System::Drawing::Point(37, 136);
 			this->textBox6->Multiline = true;
 			this->textBox6->Name = L"textBox6";
 			this->textBox6->Size = System::Drawing::Size(88, 14);
@@ -599,7 +600,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox5->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox5->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox5->Location = System::Drawing::Point(39, 113);
+			this->textBox5->Location = System::Drawing::Point(37, 113);
 			this->textBox5->Multiline = true;
 			this->textBox5->Name = L"textBox5";
 			this->textBox5->Size = System::Drawing::Size(88, 13);
@@ -609,7 +610,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox4->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox4->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox4->Location = System::Drawing::Point(39, 90);
+			this->textBox4->Location = System::Drawing::Point(37, 90);
 			this->textBox4->Multiline = true;
 			this->textBox4->Name = L"textBox4";
 			this->textBox4->Size = System::Drawing::Size(88, 14);
@@ -619,19 +620,19 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox2->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox2->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox2->Location = System::Drawing::Point(39, 42);
+			this->textBox2->Location = System::Drawing::Point(37, 42);
 			this->textBox2->Multiline = true;
 			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(130, 14);
+			this->textBox2->Size = System::Drawing::Size(122, 14);
 			this->textBox2->TabIndex = 24;
 			// 
 			// Unit
 			// 
 			this->Unit->BackColor = System::Drawing::Color::LightSeaGreen;
 			this->Unit->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->Unit->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->Unit->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->Unit->Location = System::Drawing::Point(247, 3);
+			this->Unit->Location = System::Drawing::Point(237, 3);
 			this->Unit->Name = L"Unit";
 			this->Unit->Size = System::Drawing::Size(60, 30);
 			this->Unit->TabIndex = 3;
@@ -642,11 +643,11 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->label4->BackColor = System::Drawing::Color::LightSeaGreen;
 			this->label4->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label4->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->label4->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label4->Location = System::Drawing::Point(39, 3);
+			this->label4->Location = System::Drawing::Point(37, 3);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(130, 30);
+			this->label4->Size = System::Drawing::Size(122, 30);
 			this->label4->TabIndex = 1;
 			this->label4->Text = L"Item";
 			this->label4->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -655,9 +656,9 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->label6->BackColor = System::Drawing::Color::LightSeaGreen;
 			this->label6->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label6->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->label6->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label6->Location = System::Drawing::Point(316, 3);
+			this->label6->Location = System::Drawing::Point(306, 3);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(117, 30);
 			this->label6->TabIndex = 4;
@@ -668,9 +669,9 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->label7->BackColor = System::Drawing::Color::LightSeaGreen;
 			this->label7->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label7->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->label7->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label7->Location = System::Drawing::Point(442, 3);
+			this->label7->Location = System::Drawing::Point(432, 3);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(90, 30);
 			this->label7->TabIndex = 5;
@@ -681,9 +682,9 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->label5->BackColor = System::Drawing::Color::LightSeaGreen;
 			this->label5->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->label5->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label5->Location = System::Drawing::Point(178, 3);
+			this->label5->Location = System::Drawing::Point(168, 3);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(59, 30);
 			this->label5->TabIndex = 2;
@@ -694,7 +695,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox3->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox3->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox3->Location = System::Drawing::Point(39, 67);
+			this->textBox3->Location = System::Drawing::Point(37, 67);
 			this->textBox3->Multiline = true;
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->Size = System::Drawing::Size(88, 14);
@@ -704,7 +705,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox8->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox8->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox8->Location = System::Drawing::Point(39, 182);
+			this->textBox8->Location = System::Drawing::Point(37, 182);
 			this->textBox8->Multiline = true;
 			this->textBox8->Name = L"textBox8";
 			this->textBox8->Size = System::Drawing::Size(88, 14);
@@ -714,7 +715,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox9->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox9->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox9->Location = System::Drawing::Point(178, 42);
+			this->textBox9->Location = System::Drawing::Point(168, 42);
 			this->textBox9->Multiline = true;
 			this->textBox9->Name = L"textBox9";
 			this->textBox9->Size = System::Drawing::Size(59, 14);
@@ -724,7 +725,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox10->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox10->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox10->Location = System::Drawing::Point(178, 67);
+			this->textBox10->Location = System::Drawing::Point(168, 67);
 			this->textBox10->Multiline = true;
 			this->textBox10->Name = L"textBox10";
 			this->textBox10->Size = System::Drawing::Size(59, 14);
@@ -734,7 +735,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox11->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox11->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox11->Location = System::Drawing::Point(178, 90);
+			this->textBox11->Location = System::Drawing::Point(168, 90);
 			this->textBox11->Multiline = true;
 			this->textBox11->Name = L"textBox11";
 			this->textBox11->Size = System::Drawing::Size(59, 14);
@@ -744,7 +745,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox12->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox12->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox12->Location = System::Drawing::Point(178, 113);
+			this->textBox12->Location = System::Drawing::Point(168, 113);
 			this->textBox12->Multiline = true;
 			this->textBox12->Name = L"textBox12";
 			this->textBox12->Size = System::Drawing::Size(59, 14);
@@ -754,7 +755,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox13->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox13->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox13->Location = System::Drawing::Point(178, 136);
+			this->textBox13->Location = System::Drawing::Point(168, 136);
 			this->textBox13->Multiline = true;
 			this->textBox13->Name = L"textBox13";
 			this->textBox13->Size = System::Drawing::Size(59, 14);
@@ -764,7 +765,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox14->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox14->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox14->Location = System::Drawing::Point(178, 160);
+			this->textBox14->Location = System::Drawing::Point(168, 160);
 			this->textBox14->Multiline = true;
 			this->textBox14->Name = L"textBox14";
 			this->textBox14->Size = System::Drawing::Size(59, 13);
@@ -774,7 +775,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox15->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox15->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox15->Location = System::Drawing::Point(247, 182);
+			this->textBox15->Location = System::Drawing::Point(237, 182);
 			this->textBox15->Multiline = true;
 			this->textBox15->Name = L"textBox15";
 			this->textBox15->Size = System::Drawing::Size(60, 14);
@@ -784,7 +785,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox16->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox16->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox16->Location = System::Drawing::Point(247, 42);
+			this->textBox16->Location = System::Drawing::Point(237, 42);
 			this->textBox16->Multiline = true;
 			this->textBox16->Name = L"textBox16";
 			this->textBox16->Size = System::Drawing::Size(60, 14);
@@ -794,7 +795,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox17->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox17->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox17->Location = System::Drawing::Point(247, 67);
+			this->textBox17->Location = System::Drawing::Point(237, 67);
 			this->textBox17->Multiline = true;
 			this->textBox17->Name = L"textBox17";
 			this->textBox17->Size = System::Drawing::Size(60, 14);
@@ -804,7 +805,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox18->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox18->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox18->Location = System::Drawing::Point(247, 90);
+			this->textBox18->Location = System::Drawing::Point(237, 90);
 			this->textBox18->Multiline = true;
 			this->textBox18->Name = L"textBox18";
 			this->textBox18->Size = System::Drawing::Size(60, 14);
@@ -814,7 +815,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox19->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox19->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox19->Location = System::Drawing::Point(247, 113);
+			this->textBox19->Location = System::Drawing::Point(237, 113);
 			this->textBox19->Multiline = true;
 			this->textBox19->Name = L"textBox19";
 			this->textBox19->Size = System::Drawing::Size(60, 14);
@@ -824,7 +825,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox20->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox20->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox20->Location = System::Drawing::Point(247, 136);
+			this->textBox20->Location = System::Drawing::Point(237, 136);
 			this->textBox20->Multiline = true;
 			this->textBox20->Name = L"textBox20";
 			this->textBox20->Size = System::Drawing::Size(60, 14);
@@ -834,7 +835,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox21->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox21->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox21->Location = System::Drawing::Point(247, 160);
+			this->textBox21->Location = System::Drawing::Point(237, 160);
 			this->textBox21->Multiline = true;
 			this->textBox21->Name = L"textBox21";
 			this->textBox21->Size = System::Drawing::Size(60, 13);
@@ -844,7 +845,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox22->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox22->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox22->Location = System::Drawing::Point(316, 182);
+			this->textBox22->Location = System::Drawing::Point(306, 182);
 			this->textBox22->Multiline = true;
 			this->textBox22->Name = L"textBox22";
 			this->textBox22->Size = System::Drawing::Size(117, 14);
@@ -854,7 +855,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox24->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox24->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox24->Location = System::Drawing::Point(316, 67);
+			this->textBox24->Location = System::Drawing::Point(306, 67);
 			this->textBox24->Multiline = true;
 			this->textBox24->Name = L"textBox24";
 			this->textBox24->Size = System::Drawing::Size(117, 14);
@@ -864,7 +865,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox25->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox25->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox25->Location = System::Drawing::Point(316, 90);
+			this->textBox25->Location = System::Drawing::Point(306, 90);
 			this->textBox25->Multiline = true;
 			this->textBox25->Name = L"textBox25";
 			this->textBox25->Size = System::Drawing::Size(117, 14);
@@ -874,7 +875,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox26->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox26->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox26->Location = System::Drawing::Point(316, 113);
+			this->textBox26->Location = System::Drawing::Point(306, 113);
 			this->textBox26->Multiline = true;
 			this->textBox26->Name = L"textBox26";
 			this->textBox26->Size = System::Drawing::Size(117, 14);
@@ -885,7 +886,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox27->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox27->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox27->Location = System::Drawing::Point(316, 136);
+			this->textBox27->Location = System::Drawing::Point(306, 136);
 			this->textBox27->Multiline = true;
 			this->textBox27->Name = L"textBox27";
 			this->textBox27->Size = System::Drawing::Size(117, 14);
@@ -895,7 +896,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox28->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox28->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox28->Location = System::Drawing::Point(316, 160);
+			this->textBox28->Location = System::Drawing::Point(306, 160);
 			this->textBox28->Multiline = true;
 			this->textBox28->Name = L"textBox28";
 			this->textBox28->Size = System::Drawing::Size(117, 13);
@@ -905,7 +906,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox29->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox29->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox29->Location = System::Drawing::Point(442, 182);
+			this->textBox29->Location = System::Drawing::Point(432, 182);
 			this->textBox29->Multiline = true;
 			this->textBox29->Name = L"textBox29";
 			this->textBox29->Size = System::Drawing::Size(90, 14);
@@ -915,7 +916,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox30->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox30->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox30->Location = System::Drawing::Point(442, 42);
+			this->textBox30->Location = System::Drawing::Point(432, 42);
 			this->textBox30->Multiline = true;
 			this->textBox30->Name = L"textBox30";
 			this->textBox30->Size = System::Drawing::Size(90, 14);
@@ -925,7 +926,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox31->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox31->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox31->Location = System::Drawing::Point(442, 67);
+			this->textBox31->Location = System::Drawing::Point(432, 67);
 			this->textBox31->Multiline = true;
 			this->textBox31->Name = L"textBox31";
 			this->textBox31->Size = System::Drawing::Size(90, 14);
@@ -935,7 +936,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox32->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox32->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox32->Location = System::Drawing::Point(442, 90);
+			this->textBox32->Location = System::Drawing::Point(432, 90);
 			this->textBox32->Multiline = true;
 			this->textBox32->Name = L"textBox32";
 			this->textBox32->Size = System::Drawing::Size(90, 14);
@@ -945,7 +946,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox33->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox33->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox33->Location = System::Drawing::Point(442, 113);
+			this->textBox33->Location = System::Drawing::Point(432, 113);
 			this->textBox33->Multiline = true;
 			this->textBox33->Name = L"textBox33";
 			this->textBox33->Size = System::Drawing::Size(90, 14);
@@ -955,7 +956,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox34->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox34->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox34->Location = System::Drawing::Point(442, 136);
+			this->textBox34->Location = System::Drawing::Point(432, 136);
 			this->textBox34->Multiline = true;
 			this->textBox34->Name = L"textBox34";
 			this->textBox34->Size = System::Drawing::Size(90, 14);
@@ -965,7 +966,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox35->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox35->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox35->Location = System::Drawing::Point(442, 160);
+			this->textBox35->Location = System::Drawing::Point(432, 160);
 			this->textBox35->Multiline = true;
 			this->textBox35->Name = L"textBox35";
 			this->textBox35->Size = System::Drawing::Size(90, 13);
@@ -975,7 +976,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox53->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox53->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox53->Location = System::Drawing::Point(39, 205);
+			this->textBox53->Location = System::Drawing::Point(37, 205);
 			this->textBox53->Multiline = true;
 			this->textBox53->Name = L"textBox53";
 			this->textBox53->Size = System::Drawing::Size(88, 14);
@@ -985,7 +986,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox55->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox55->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox55->Location = System::Drawing::Point(178, 182);
+			this->textBox55->Location = System::Drawing::Point(168, 182);
 			this->textBox55->Multiline = true;
 			this->textBox55->Name = L"textBox55";
 			this->textBox55->Size = System::Drawing::Size(59, 13);
@@ -998,7 +999,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->textBox56->Location = System::Drawing::Point(6, 67);
 			this->textBox56->Multiline = true;
 			this->textBox56->Name = L"textBox56";
-			this->textBox56->Size = System::Drawing::Size(24, 14);
+			this->textBox56->Size = System::Drawing::Size(22, 14);
 			this->textBox56->TabIndex = 62;
 			this->textBox56->Text = L"2";
 			// 
@@ -1009,7 +1010,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->textBox37->Location = System::Drawing::Point(6, 90);
 			this->textBox37->Multiline = true;
 			this->textBox37->Name = L"textBox37";
-			this->textBox37->Size = System::Drawing::Size(24, 14);
+			this->textBox37->Size = System::Drawing::Size(22, 14);
 			this->textBox37->TabIndex = 63;
 			this->textBox37->Text = L"3";
 			// 
@@ -1020,7 +1021,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->textBox38->Location = System::Drawing::Point(6, 113);
 			this->textBox38->Multiline = true;
 			this->textBox38->Name = L"textBox38";
-			this->textBox38->Size = System::Drawing::Size(24, 14);
+			this->textBox38->Size = System::Drawing::Size(22, 14);
 			this->textBox38->TabIndex = 64;
 			this->textBox38->Text = L"4";
 			// 
@@ -1031,7 +1032,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->textBox39->Location = System::Drawing::Point(6, 136);
 			this->textBox39->Multiline = true;
 			this->textBox39->Name = L"textBox39";
-			this->textBox39->Size = System::Drawing::Size(24, 14);
+			this->textBox39->Size = System::Drawing::Size(22, 14);
 			this->textBox39->TabIndex = 65;
 			this->textBox39->Text = L"5";
 			// 
@@ -1042,7 +1043,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->textBox41->Location = System::Drawing::Point(6, 182);
 			this->textBox41->Multiline = true;
 			this->textBox41->Name = L"textBox41";
-			this->textBox41->Size = System::Drawing::Size(24, 14);
+			this->textBox41->Size = System::Drawing::Size(22, 14);
 			this->textBox41->TabIndex = 67;
 			this->textBox41->Text = L"7";
 			// 
@@ -1053,7 +1054,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->textBox42->Location = System::Drawing::Point(6, 205);
 			this->textBox42->Multiline = true;
 			this->textBox42->Name = L"textBox42";
-			this->textBox42->Size = System::Drawing::Size(24, 14);
+			this->textBox42->Size = System::Drawing::Size(22, 14);
 			this->textBox42->TabIndex = 68;
 			this->textBox42->Text = L"8";
 			// 
@@ -1064,7 +1065,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->textBox43->Location = System::Drawing::Point(6, 228);
 			this->textBox43->Multiline = true;
 			this->textBox43->Name = L"textBox43";
-			this->textBox43->Size = System::Drawing::Size(24, 14);
+			this->textBox43->Size = System::Drawing::Size(22, 14);
 			this->textBox43->TabIndex = 69;
 			this->textBox43->Text = L"9";
 			// 
@@ -1072,7 +1073,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox45->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox45->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox45->Location = System::Drawing::Point(39, 228);
+			this->textBox45->Location = System::Drawing::Point(37, 228);
 			this->textBox45->Multiline = true;
 			this->textBox45->Name = L"textBox45";
 			this->textBox45->Size = System::Drawing::Size(88, 14);
@@ -1082,7 +1083,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox46->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox46->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox46->Location = System::Drawing::Point(39, 251);
+			this->textBox46->Location = System::Drawing::Point(37, 251);
 			this->textBox46->Multiline = true;
 			this->textBox46->Name = L"textBox46";
 			this->textBox46->Size = System::Drawing::Size(88, 14);
@@ -1092,7 +1093,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox36->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox36->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox36->Location = System::Drawing::Point(178, 251);
+			this->textBox36->Location = System::Drawing::Point(168, 251);
 			this->textBox36->Multiline = true;
 			this->textBox36->Name = L"textBox36";
 			this->textBox36->Size = System::Drawing::Size(59, 14);
@@ -1105,7 +1106,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->textBox44->Location = System::Drawing::Point(6, 251);
 			this->textBox44->Multiline = true;
 			this->textBox44->Name = L"textBox44";
-			this->textBox44->Size = System::Drawing::Size(24, 14);
+			this->textBox44->Size = System::Drawing::Size(22, 14);
 			this->textBox44->TabIndex = 70;
 			this->textBox44->Text = L"10";
 			// 
@@ -1113,7 +1114,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox47->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox47->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox47->Location = System::Drawing::Point(178, 205);
+			this->textBox47->Location = System::Drawing::Point(168, 205);
 			this->textBox47->Multiline = true;
 			this->textBox47->Name = L"textBox47";
 			this->textBox47->Size = System::Drawing::Size(59, 13);
@@ -1123,7 +1124,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox48->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox48->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox48->Location = System::Drawing::Point(178, 228);
+			this->textBox48->Location = System::Drawing::Point(168, 228);
 			this->textBox48->Multiline = true;
 			this->textBox48->Name = L"textBox48";
 			this->textBox48->Size = System::Drawing::Size(59, 14);
@@ -1133,7 +1134,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox49->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox49->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox49->Location = System::Drawing::Point(247, 205);
+			this->textBox49->Location = System::Drawing::Point(237, 205);
 			this->textBox49->Multiline = true;
 			this->textBox49->Name = L"textBox49";
 			this->textBox49->Size = System::Drawing::Size(60, 14);
@@ -1143,7 +1144,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox50->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox50->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox50->Location = System::Drawing::Point(247, 228);
+			this->textBox50->Location = System::Drawing::Point(237, 228);
 			this->textBox50->Multiline = true;
 			this->textBox50->Name = L"textBox50";
 			this->textBox50->Size = System::Drawing::Size(60, 14);
@@ -1153,7 +1154,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox51->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox51->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox51->Location = System::Drawing::Point(247, 251);
+			this->textBox51->Location = System::Drawing::Point(237, 251);
 			this->textBox51->Multiline = true;
 			this->textBox51->Name = L"textBox51";
 			this->textBox51->Size = System::Drawing::Size(60, 14);
@@ -1163,7 +1164,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox57->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox57->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox57->Location = System::Drawing::Point(316, 205);
+			this->textBox57->Location = System::Drawing::Point(306, 205);
 			this->textBox57->Multiline = true;
 			this->textBox57->Name = L"textBox57";
 			this->textBox57->Size = System::Drawing::Size(117, 14);
@@ -1173,7 +1174,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox58->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox58->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox58->Location = System::Drawing::Point(316, 228);
+			this->textBox58->Location = System::Drawing::Point(306, 228);
 			this->textBox58->Multiline = true;
 			this->textBox58->Name = L"textBox58";
 			this->textBox58->Size = System::Drawing::Size(117, 14);
@@ -1183,7 +1184,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox59->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox59->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox59->Location = System::Drawing::Point(316, 251);
+			this->textBox59->Location = System::Drawing::Point(306, 251);
 			this->textBox59->Multiline = true;
 			this->textBox59->Name = L"textBox59";
 			this->textBox59->Size = System::Drawing::Size(117, 14);
@@ -1193,7 +1194,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox60->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox60->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox60->Location = System::Drawing::Point(442, 205);
+			this->textBox60->Location = System::Drawing::Point(432, 205);
 			this->textBox60->Multiline = true;
 			this->textBox60->Name = L"textBox60";
 			this->textBox60->Size = System::Drawing::Size(90, 14);
@@ -1203,7 +1204,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox61->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox61->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox61->Location = System::Drawing::Point(442, 228);
+			this->textBox61->Location = System::Drawing::Point(432, 228);
 			this->textBox61->Multiline = true;
 			this->textBox61->Name = L"textBox61";
 			this->textBox61->Size = System::Drawing::Size(90, 14);
@@ -1213,7 +1214,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox62->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox62->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox62->Location = System::Drawing::Point(442, 251);
+			this->textBox62->Location = System::Drawing::Point(432, 251);
 			this->textBox62->Multiline = true;
 			this->textBox62->Name = L"textBox62";
 			this->textBox62->Size = System::Drawing::Size(90, 14);
@@ -1223,7 +1224,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox52->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox52->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox52->Location = System::Drawing::Point(541, 42);
+			this->textBox52->Location = System::Drawing::Point(531, 42);
 			this->textBox52->Multiline = true;
 			this->textBox52->Name = L"textBox52";
 			this->textBox52->Size = System::Drawing::Size(322, 14);
@@ -1233,7 +1234,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox63->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox63->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox63->Location = System::Drawing::Point(541, 67);
+			this->textBox63->Location = System::Drawing::Point(531, 67);
 			this->textBox63->Multiline = true;
 			this->textBox63->Name = L"textBox63";
 			this->textBox63->Size = System::Drawing::Size(322, 14);
@@ -1243,7 +1244,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox64->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox64->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox64->Location = System::Drawing::Point(541, 90);
+			this->textBox64->Location = System::Drawing::Point(531, 90);
 			this->textBox64->Multiline = true;
 			this->textBox64->Name = L"textBox64";
 			this->textBox64->Size = System::Drawing::Size(322, 14);
@@ -1253,7 +1254,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox65->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox65->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox65->Location = System::Drawing::Point(541, 113);
+			this->textBox65->Location = System::Drawing::Point(531, 113);
 			this->textBox65->Multiline = true;
 			this->textBox65->Name = L"textBox65";
 			this->textBox65->Size = System::Drawing::Size(322, 14);
@@ -1263,7 +1264,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox66->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox66->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox66->Location = System::Drawing::Point(541, 136);
+			this->textBox66->Location = System::Drawing::Point(531, 136);
 			this->textBox66->Multiline = true;
 			this->textBox66->Name = L"textBox66";
 			this->textBox66->Size = System::Drawing::Size(322, 14);
@@ -1273,7 +1274,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox67->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox67->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox67->Location = System::Drawing::Point(541, 160);
+			this->textBox67->Location = System::Drawing::Point(531, 160);
 			this->textBox67->Multiline = true;
 			this->textBox67->Name = L"textBox67";
 			this->textBox67->Size = System::Drawing::Size(322, 13);
@@ -1283,7 +1284,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox68->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox68->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox68->Location = System::Drawing::Point(541, 182);
+			this->textBox68->Location = System::Drawing::Point(531, 182);
 			this->textBox68->Multiline = true;
 			this->textBox68->Name = L"textBox68";
 			this->textBox68->Size = System::Drawing::Size(322, 14);
@@ -1293,7 +1294,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox69->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox69->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox69->Location = System::Drawing::Point(541, 205);
+			this->textBox69->Location = System::Drawing::Point(531, 205);
 			this->textBox69->Multiline = true;
 			this->textBox69->Name = L"textBox69";
 			this->textBox69->Size = System::Drawing::Size(322, 14);
@@ -1303,7 +1304,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox70->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox70->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox70->Location = System::Drawing::Point(541, 228);
+			this->textBox70->Location = System::Drawing::Point(531, 228);
 			this->textBox70->Multiline = true;
 			this->textBox70->Name = L"textBox70";
 			this->textBox70->Size = System::Drawing::Size(322, 14);
@@ -1313,7 +1314,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox71->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox71->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox71->Location = System::Drawing::Point(541, 251);
+			this->textBox71->Location = System::Drawing::Point(531, 251);
 			this->textBox71->Multiline = true;
 			this->textBox71->Name = L"textBox71";
 			this->textBox71->Size = System::Drawing::Size(322, 14);
@@ -1324,11 +1325,11 @@ private: System::ComponentModel::IContainer^  components;
 			this->label3->AllowDrop = true;
 			this->label3->BackColor = System::Drawing::Color::LightSeaGreen;
 			this->label3->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->label3->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label3->Location = System::Drawing::Point(6, 3);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(24, 30);
+			this->label3->Size = System::Drawing::Size(22, 30);
 			this->label3->TabIndex = 0;
 			this->label3->Text = L"SNo.";
 			this->label3->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -1340,7 +1341,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->textBox54->Location = System::Drawing::Point(6, 42);
 			this->textBox54->Multiline = true;
 			this->textBox54->Name = L"textBox54";
-			this->textBox54->Size = System::Drawing::Size(24, 14);
+			this->textBox54->Size = System::Drawing::Size(22, 14);
 			this->textBox54->TabIndex = 36;
 			this->textBox54->Text = L"1";
 			// 
@@ -1348,7 +1349,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox73->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox73->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox73->Location = System::Drawing::Point(178, 274);
+			this->textBox73->Location = System::Drawing::Point(168, 274);
 			this->textBox73->Multiline = true;
 			this->textBox73->Name = L"textBox73";
 			this->textBox73->Size = System::Drawing::Size(59, 14);
@@ -1358,7 +1359,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox74->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox74->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox74->Location = System::Drawing::Point(39, 274);
+			this->textBox74->Location = System::Drawing::Point(37, 274);
 			this->textBox74->Multiline = true;
 			this->textBox74->Name = L"textBox74";
 			this->textBox74->Size = System::Drawing::Size(88, 14);
@@ -1368,7 +1369,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox75->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox75->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox75->Location = System::Drawing::Point(247, 274);
+			this->textBox75->Location = System::Drawing::Point(237, 274);
 			this->textBox75->Multiline = true;
 			this->textBox75->Name = L"textBox75";
 			this->textBox75->Size = System::Drawing::Size(60, 14);
@@ -1381,7 +1382,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->textBox40->Location = System::Drawing::Point(6, 160);
 			this->textBox40->Multiline = true;
 			this->textBox40->Name = L"textBox40";
-			this->textBox40->Size = System::Drawing::Size(24, 13);
+			this->textBox40->Size = System::Drawing::Size(22, 13);
 			this->textBox40->TabIndex = 66;
 			this->textBox40->Text = L"6";
 			// 
@@ -1389,7 +1390,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->textBox7->BackColor = System::Drawing::Color::LightSteelBlue;
 			this->textBox7->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox7->Location = System::Drawing::Point(39, 160);
+			this->textBox7->Location = System::Drawing::Point(37, 160);
 			this->textBox7->Multiline = true;
 			this->textBox7->Name = L"textBox7";
 			this->textBox7->Size = System::Drawing::Size(88, 13);
@@ -1399,9 +1400,9 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			this->Process->BackColor = System::Drawing::Color::LightSeaGreen;
 			this->Process->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->Process->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->Process->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->Process->Location = System::Drawing::Point(541, 3);
+			this->Process->Location = System::Drawing::Point(531, 3);
 			this->Process->Name = L"Process";
 			this->Process->Size = System::Drawing::Size(435, 30);
 			this->Process->TabIndex = 84;
@@ -1410,7 +1411,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			// Series
 			// 
-			this->Series->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->Series->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Series->ForeColor = System::Drawing::SystemColors::ScrollBar;
 			this->Series->Location = System::Drawing::Point(177, 61);
@@ -1422,7 +1423,7 @@ private: System::ComponentModel::IContainer^  components;
 			// label1
 			// 
 			this->label1->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->label1->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label1->ForeColor = System::Drawing::Color::DarkBlue;
 			this->label1->Location = System::Drawing::Point(252, 61);
@@ -1433,7 +1434,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			// Date
 			// 
-			this->Date->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->Date->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Date->ForeColor = System::Drawing::SystemColors::ScrollBar;
 			this->Date->Location = System::Drawing::Point(392, 61);
@@ -1456,7 +1457,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			// VchNo
 			// 
-			this->VchNo->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->VchNo->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->VchNo->ForeColor = System::Drawing::SystemColors::ScrollBar;
 			this->VchNo->Location = System::Drawing::Point(671, 61);
@@ -1467,7 +1468,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			// From
 			// 
-			this->From->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->From->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->From->ForeColor = System::Drawing::SystemColors::ScrollBar;
 			this->From->Location = System::Drawing::Point(177, 109);
@@ -1479,7 +1480,7 @@ private: System::ComponentModel::IContainer^  components;
 			// label8
 			// 
 			this->label8->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->label8->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->label8->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label8->ForeColor = System::Drawing::Color::DarkBlue;
 			this->label8->Location = System::Drawing::Point(252, 109);
@@ -1490,7 +1491,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			// To
 			// 
-			this->To->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->To->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->To->ForeColor = System::Drawing::SystemColors::ScrollBar;
 			this->To->Location = System::Drawing::Point(524, 109);
@@ -1509,7 +1510,7 @@ private: System::ComponentModel::IContainer^  components;
 			// Save
 			// 
 			this->Save->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->Save->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->Save->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Save->Location = System::Drawing::Point(551, 575);
 			this->Save->Name = L"Save";
@@ -1522,7 +1523,7 @@ private: System::ComponentModel::IContainer^  components;
 			// Quit
 			// 
 			this->Quit->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->Quit->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->Quit->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->Quit->Location = System::Drawing::Point(646, 575);
 			this->Quit->Name = L"Quit";
@@ -1534,7 +1535,7 @@ private: System::ComponentModel::IContainer^  components;
 			// 
 			// Name_of_Form
 			// 
-			this->Name_of_Form->Font = (gcnew System::Drawing::Font(L"Arial", 9, static_cast<System::Drawing::FontStyle>(((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic) 
+			this->Name_of_Form->Font = (gcnew System::Drawing::Font(L"Arial", 9, static_cast<System::Drawing::FontStyle>(((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)
 				| System::Drawing::FontStyle::Underline)), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
 			this->Name_of_Form->ForeColor = System::Drawing::Color::Yellow;
 			this->Name_of_Form->Location = System::Drawing::Point(562, 12);
@@ -1546,7 +1547,7 @@ private: System::ComponentModel::IContainer^  components;
 			// New
 			// 
 			this->New->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->New->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->New->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->New->Location = System::Drawing::Point(456, 575);
 			this->New->Name = L"New";
@@ -1568,7 +1569,7 @@ private: System::ComponentModel::IContainer^  components;
 			// PDetails
 			// 
 			this->PDetails->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->PDetails->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->PDetails->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->PDetails->Location = System::Drawing::Point(853, 108);
 			this->PDetails->Name = L"PDetails";
@@ -1585,7 +1586,7 @@ private: System::ComponentModel::IContainer^  components;
 			// RECEIVED
 			// 
 			this->RECEIVED->BackColor = System::Drawing::SystemColors::ControlLight;
-			this->RECEIVED->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, 
+			this->RECEIVED->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->RECEIVED->Location = System::Drawing::Point(741, 575);
 			this->RECEIVED->Name = L"RECEIVED";
@@ -1711,7 +1712,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::SystemColors::ControlDarkDark;
-			this->ClientSize = System::Drawing::Size(1338, 750);
+			this->ClientSize = System::Drawing::Size(1338, 737);
 			this->Controls->Add(this->RECEIVED10);
 			this->Controls->Add(this->RECEIVED9);
 			this->Controls->Add(this->RECEIVED8);
@@ -1745,7 +1746,7 @@ private: System::ComponentModel::IContainer^  components;
 			this->Load += gcnew System::EventHandler(this, &StockTransferAdd::StockTransferAdd_Load);
 			this->tableLayoutPanel3->ResumeLayout(false);
 			this->tableLayoutPanel3->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->errorProvider1))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->errorProvider1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
