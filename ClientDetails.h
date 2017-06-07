@@ -233,28 +233,28 @@ private: System::Void Save_Click(System::Object^  sender, System::EventArgs^  e)
 			 {
 				  errorProvider1->SetError(textBox1,"Field cannot be blank");
 			 }
-			 else
-			 {
-				  String^ str = textBox1->Text;
+			 //else
+			 //{
+				//  String^ str = textBox1->Text;
 
-				array<Char>^ character_array = str->ToCharArray();
+				//array<Char>^ character_array = str->ToCharArray();
 
-				//   Console::WriteLine(str);
-				   for (int i = 0; i < character_array->Length; i++)
-					 {
-					    if (( character_array[i] >= L'a' && character_array[i] <= 'z')|| ( character_array[i] >= L'A' && character_array[i] <= 'Z') || ( character_array[i] >= L'0' && character_array[i] <= '9') )
-						   {
-								//	Console::WriteLine("Good values provided!!");
-									 errorProvider1->SetError(textBox1,"");											 
-							}					
-						else
-						{
-						//	Console::WriteLine("No Matching values provided!!");													
-							 errorProvider1->SetError(textBox1,"Enter a numeric or text value");
-							 return;
-						}
-					  }		
-			 }
+				////   Console::WriteLine(str);
+				//   for (int i = 0; i < character_array->Length; i++)
+				//	 {
+				//	    if (( character_array[i] >= L'a' && character_array[i] <= 'z')|| ( character_array[i] >= L'A' && character_array[i] <= 'Z') || ( character_array[i] >= L'0' && character_array[i] <= '9') )
+				//		   {
+				//				//	Console::WriteLine("Good values provided!!");
+				//					 errorProvider1->SetError(textBox1,"");											 
+				//			}					
+				//		else
+				//		{
+				//		//	Console::WriteLine("No Matching values provided!!");													
+				//			 errorProvider1->SetError(textBox1,"Enter a numeric or text value");
+				//			 return;
+				//		}
+				//	  }		
+			 //}
 //			 }			
 			  if(textBox2->Text == "")
 					 {					   					 
